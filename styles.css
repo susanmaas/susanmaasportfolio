@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(18, 31, 51);
+    color: black;
+    font-family: 'Lato', sans-serif;
+    background-image: url("jesus-kiteque-224069-unsplash-resized.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+heading {
+    text-align: center;
+}
+
+.topHeading {
+    margin-top: 5rem;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight:100;
+}
+
+h1 {
+    font-family: 'Heebo', sans-serif;
+    font-weight: bold;
+    font-size: 4rem;
+    color: orange;
+}
+
+button {
+    border: none;
+    background-color: black;
+    color: white;
+    letter-spacing: 0.1rem;
+    font-weight: 200;
+    font-size: 1.3rem;
+    padding: 0.5rem 1rem;
+}
