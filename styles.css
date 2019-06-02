@@ -4,7 +4,7 @@ body {
 }
 
 .hero {
-    background-image: url("jesus-kiteque-224069-unsplash-resized.jpg");
+    background-image: url("jesus-kiteque-224069-unsplash-1920pxandcentered.jpg");
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -22,11 +22,15 @@ body {
     font-weight: bold;
     font-size: 4.5rem;
     color: orange;
-    margin-top: 2rem;
-    margin-bottom: 5rem;
+    margin-top: 3.5rem;
+    margin-bottom: 3rem;
 }
 
-.linkToWritingSamples {
+.landingPageLowerHeading {
+    font-size: 1.5rem;
+}
+
+.linkToPortfolioItems {
     text-decoration: none;
     border: none;
     color: black;
