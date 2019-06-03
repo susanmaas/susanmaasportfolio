@@ -39,3 +39,7 @@ body {
     padding: 0.5rem 1rem;
 }
 
+/* Below "gallery is part of screen shot practice (see index.html) */
+.gallery {
+    display: flex;
+}
