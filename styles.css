@@ -1,6 +1,7 @@
 body {
     font-family: 'Lato', sans-serif;
     margin: 0;
+    background: grey;
 }
 
 .hero {
@@ -12,7 +13,7 @@ body {
 }
 
 .landingPageTopHeading {
-    margin-top: 4rem;
+    padding-top: 4rem;
     font-size: 2rem;
     font-weight:100;
 }
@@ -26,20 +27,27 @@ body {
     margin-bottom: 3rem;
 }
 
+i, .fas fa-arrow-down {
+    margin-top: 2rem;
+    color: black;
+    font-size: 2rem;
+}
+
 .landingPageLowerHeading {
     font-size: 1.5rem;
 }
 
-.linkToPortfolioItems {
-    text-decoration: none;
-    border: none;
-    color: black;
-    letter-spacing: 0.1rem;
-    font-size: 2.8rem;
-    padding: 0.5rem 1rem;
+img {
+    width: 100%;
+    height: auto;
 }
 
-/* Below "gallery is part of screen shot practice (see index.html) */
-.gallery {
-    display: flex;
+.wrapper {
+    padding: 0.5rem;
+    margin: 3rem auto;
+    max-width: 90%;
+    background-color: grey;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
 }
