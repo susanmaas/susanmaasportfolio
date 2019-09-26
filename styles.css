@@ -5,6 +5,13 @@ body {
     color: white;
 }
 
+/* button is here because of .homeButton below. See comment with .homeButton */
+button {
+    background-color: blue;
+    border-radius: 10%;
+    border: none;
+}
+
 .hero {
     background-image: url("jesus-kiteque-224069-unsplash-1920pxandcentered.jpg");
     background-size: cover;
@@ -84,7 +91,7 @@ a {
 }
 
 a:hover {
-    color: lightskyblue;
+    color: orange;
     text-decoration: none;
 }
 
@@ -102,4 +109,13 @@ a:hover {
 
 .pageLayout {
     padding: 2rem;
+}
+
+.footerLinks {
+   margin-left: 1rem;
+}
+
+/* homeButton to remove when nav in place */
+.homeButton {
+    margin-top: 4rem;
 }
