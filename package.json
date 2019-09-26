@@ -1,0 +1,24 @@
+{
+  "name": "susanmaasportfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "gh-pages": "^2.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/susanmaas/susanmaasportfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/susanmaas/susanmaasportfolio/issues"
+  },
+  "homepage": "https://susanmaas.github.io/susanmaasportfolio"
+}
