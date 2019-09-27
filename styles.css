@@ -5,13 +5,6 @@ body {
     color: white;
 }
 
-/* button is here because of .homeButton below. See comment with .homeButton */
-button {
-    background-color: blue;
-    border-radius: 10%;
-    border: none;
-}
-
 .hero {
     background-image: url("images/jesus-kiteque-224069-unsplash-1920pxandcentered.jpg");
     background-size: cover;
@@ -87,8 +80,25 @@ footer {
     text-align: center;
 }
 
+nav {
+    background: rgb(83, 80, 80);
+    height: 4rem;
+}
+
+ul {
+    list-style: none;
+}
+
 a {
     color: white;
+}
+
+.navListItem {
+    padding-top: 0.7rem;
+}
+
+.navLinks {
+    font-size: 1.5rem;
 }
 
 a:hover {
@@ -112,13 +122,4 @@ a:hover {
 
 .pageLayout {
     padding: 2rem;
-}
-
-.footerLinks {
-   margin-left: 1rem;
-}
-
-/* homeButton to remove when nav in place */
-.homeButton {
-    margin-top: 4rem;
 }
