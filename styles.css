@@ -106,17 +106,48 @@ a:hover {
     text-decoration: none;
 }
 
-@media only screen and (max-width: 925px) {
+@media (max-width: 925px) {
     #wrapper {
         -ms-grid-columns: 1fr 1fr;
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
-@media only screen and (max-width: 610px) {
+@media (max-width: 610px) {
     #wrapper {
         -ms-grid-columns: 1fr;
         grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (max-width: 374px) {
+    .landingPageTopHeading {
+        padding-top: 2rem;
+        font-size: 1rem;
+    }
+    .landingPageMainHeading {
+        font-size: 1.5rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .landingPageLowerHeading {
+        font-size: 1rem;
+    }
+    i, .fas fa-arrow-down {
+        margin-top: 1rem;
+    }
+}
+
+@media (max-height: 500px){
+    .landingPageTopHeading {
+        padding-top: 1rem;
+    }
+    .landingPageMainHeading {
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+    }
+    i, .fas fa-arrow-down {
+        margin-top: 0rem;
     }
 }
 
