@@ -148,6 +148,24 @@ a:hover {
     }
 }
 
+.socialMedia, .contact {
+    text-align: center;
+}
+
+.contact {
+margin-top: 1rem;
+margin-bottom: 3rem;
+}
+
+.contact a {
+    font-size: 1.2rem;
+}
+
+.githubMark {
+    max-width: 32px;
+    height: auto;
+}
+
 .pageLayout {
     padding: 2rem;
 }
