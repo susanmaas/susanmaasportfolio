@@ -96,6 +96,7 @@ ul {
 
 a {
     color: white;
+    text-decoration: none;
 }
 
 .navListItem {
@@ -175,5 +176,3 @@ margin-bottom: 3rem;
 .pageLayout {
     padding: 2rem;
 }
-
-/*test*/
